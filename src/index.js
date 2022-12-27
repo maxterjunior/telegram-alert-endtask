@@ -3,9 +3,6 @@ const { program } = require('commander');
 const { Telegraf } = require('telegraf');
 // require('dotenv').config();
 
-// BOT_TOKEN = '5401509390:AAFYStFe38EL0z_BESBxqFKAjbhJdh59ej8'
-// CHAT_ID = 1526068590
-
 // console.log('Token::',process.env.TELEGRAM_BOT_TOKEN)
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN)
 // const bot = new Telegraf(BOT_TOKEN)
